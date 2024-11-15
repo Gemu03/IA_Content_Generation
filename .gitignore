@@ -1,0 +1,64 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entorno Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# React
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.env
+*.venv
+.venv/
+env/
+venv/
+
+# Docker
+*.pid
+*.swp
+docker-compose.override.yml
+
+# PostgreSQL
+pg_data/
+
+# Editor y herramientas
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Git
+.git/
+!.gitignore
+
+# Otros
+coverage/
+*.iml
+*.tmp
+*.bak
+*.backup
+*.old
+*.orig
+*.out
+*.lock
