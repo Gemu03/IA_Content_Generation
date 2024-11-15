@@ -58,6 +58,24 @@ Este microservicio se encarga de procesar las solicitudes de los usuarios y util
   - **DALL·E**: Generación de imágenes personalizadas.
   - **Codex**: Generación de código en base a descripciones del usuario.
 
+### Microservicio de Búsqueda con Elasticsearch
+
+El microservicio de búsqueda permite a los usuarios encontrar rápidamente contenidos previos a través de un motor de búsqueda avanzado.
+
+- **Tecnologías**: Elasticsearch, Python.
+- **Funcionalidades**:
+  - Indexación y búsqueda rápida de contenidos generados.
+  - Filtros personalizados por fecha, categoría y palabras clave.
+
+### Despliegue en la Nube con Kubernetes y Monitoreo
+
+El proyecto está diseñado para ser desplegado usando **Kubernetes** en **AWS** con servicios de monitoreo como **Prometheus** y **Grafana**, lo cual asegura una alta disponibilidad y observabilidad del sistema.
+
+- **Kubernetes**: Orquestación de contenedores.
+- **Prometheus y Grafana**: Monitoreo de recursos y análisis de métricas.
+- **CI/CD**: Despliegue automático mediante GitHub Actions.
+
+
 ## Despliegue
 
 ### Prerequisitos
@@ -135,8 +153,3 @@ Si deseas contribuir a este proyecto, puedes hacer un fork del repositorio y env
 ## Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
-
----
-
-Con esta documentación, espero que puedas instalar, utilizar y contribuir a la plataforma de generación de contenido personalizado utilizando IA generativa sin mayores complicaciones. Si tienes preguntas o sugerencias, no dudes en crear un issue en el repositorio.
-
